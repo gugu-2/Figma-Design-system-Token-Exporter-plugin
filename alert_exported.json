@@ -1,0 +1,3069 @@
+{
+  "componentName": "Alert",
+  "frameId": "1788:122645",
+  "frameName": "Alert",
+  "sectionsCount": 2,
+  "sections": [
+    {
+      "variantType": "Variant",
+      "subVariants": [
+        {
+          "subVariantType": "Standard",
+          "variantCount": 4,
+          "variants": [
+            {
+              "id": "1788:122755",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#cafdf5",
+                  "rgba": "rgba(202, 253, 245, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Info",
+                "This is an Info alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Info",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#003768"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Info alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#003768"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#00b8d9"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Standard*",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Info",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1788:122756",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#d8fbde",
+                  "rgba": "rgba(216, 251, 222, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Success",
+                "This is an Success alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Success",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#0a5554"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Success alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#0a5554"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#36b37e"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Standard*",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Success",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1788:122757",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#fff5cc",
+                  "rgba": "rgba(255, 245, 204, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Warning",
+                "This is an Warning alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Warning",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#7a4100"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Warning alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#7a4100"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffab00"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Standard*",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Warning",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1788:122758",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#ffe9d5",
+                  "rgba": "rgba(255, 233, 213, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Error",
+                "This is an Error alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Error",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#7a0916"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Error alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#7a0916"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ff5630"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Standard*",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Error",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "subVariantType": "Filled",
+          "variantCount": 4,
+          "variants": [
+            {
+              "id": "1790:118139",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#00b8d9",
+                  "rgba": "rgba(0, 184, 217, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Info",
+                "This is an Info alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Info",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Info alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Filled",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Info",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1790:118140",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#36b37e",
+                  "rgba": "rgba(54, 179, 126, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Success",
+                "This is an Success alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Success",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Success alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Filled",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Success",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1790:118141",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#ffab00",
+                  "rgba": "rgba(255, 171, 0, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Warning",
+                "This is an Warning alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Warning",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Warning alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Filled",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Warning",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1790:118142",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#ff5630",
+                  "rgba": "rgba(255, 86, 48, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Error",
+                "This is an Error alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Error",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Error alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Filled",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Error",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "subVariantType": "Outlined",
+          "variantCount": 4,
+          "variants": [
+            {
+              "id": "1790:118096",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "hex": "#00b8d9",
+                  "rgba": "rgba(0, 184, 217, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Info",
+                "This is an Info alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Info",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#006c9c"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Info alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#006c9c"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#006c9c"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#00b8d9"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Outlined",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Info",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1790:118097",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "hex": "#36b37e",
+                  "rgba": "rgba(54, 179, 126, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Success",
+                "This is an Success alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Success",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#1b806a"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Success alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#1b806a"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#1b806a"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#36b37e"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Outlined",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Success",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1790:118098",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "hex": "#ffab00",
+                  "rgba": "rgba(255, 171, 0, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Warning",
+                "This is an Warning alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Warning",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#b76e00"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Warning alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#b76e00"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#b76e00"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffab00"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Outlined",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Warning",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            },
+            {
+              "id": "1790:118099",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "hex": "#ff5630",
+                  "rgba": "rgba(255, 86, 48, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Error",
+                "This is an Error alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Error",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#b71d18"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Error alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#b71d18"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#b71d18"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ff5630"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Outlined",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Error",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "variantType": "Cases",
+      "subVariants": [
+        {
+          "subVariantType": "Close",
+          "variantCount": 1,
+          "variants": [
+            {
+              "id": "1788:122999",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 52
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#cafdf5",
+                  "rgba": "rgba(202, 253, 245, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Info",
+                "This is an Info alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Info",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#003768"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Info alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#003768"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#00b8d9"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Variant": {
+                  "value": "Standard*",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Info",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "subVariantType": "Action",
+          "variantCount": 1,
+          "variants": [
+            {
+              "id": "1788:123000",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 50
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#d8fbde",
+                  "rgba": "rgba(216, 251, 222, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Success",
+                "This is an Success alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Success",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#0a5554"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Success alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#0a5554"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffffff"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#36b37e"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Standard*",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Success",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "subVariantType": "Title",
+          "variantCount": 1,
+          "variants": [
+            {
+              "id": "1788:123001",
+              "name": "Alert",
+              "type": "INSTANCE",
+              "isTextOnly": false,
+              "dimensions": {
+                "width": 760,
+                "height": 78
+              },
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "hex": "#fff5cc",
+                  "rgba": "rgba(255, 245, 204, 1)",
+                  "opacity": 1
+                }
+              ],
+              "strokes": [],
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "cornerRadius": 8,
+              "effects": [],
+              "textKeywords": [
+                "Warning",
+                "This is an Warning alert ΓÇö check it out!",
+                "Action",
+                "Dismiss"
+              ],
+              "textLayers": [
+                {
+                  "name": "title",
+                  "keyword": "Warning",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 600,
+                  "fontSize": 16,
+                  "lineHeightPx": 24,
+                  "letterSpacing": 0,
+                  "color": "#7a4100"
+                },
+                {
+                  "name": "description",
+                  "keyword": "This is an Warning alert ΓÇö check it out!",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 400,
+                  "fontSize": 14,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#7a4100"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Action",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#212b36"
+                },
+                {
+                  "name": "label",
+                  "keyword": "Dismiss",
+                  "fontFamily": "Public Sans",
+                  "fontWeight": 700,
+                  "fontSize": 13,
+                  "lineHeightPx": 22,
+                  "letterSpacing": 0,
+                  "color": "#ffab00"
+                }
+              ],
+              "autoLayout": {
+                "layoutMode": "HORIZONTAL",
+                "padding": {
+                  "top": 6,
+                  "right": 8,
+                  "bottom": 6,
+                  "left": 0
+                },
+                "itemSpacing": 0,
+                "counterAxisAlignItems": "CENTER"
+              },
+              "internalAutoLayouts": [
+                {
+                  "name": "icon container",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 7,
+                    "right": 12,
+                    "bottom": 0,
+                    "left": 16
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "text",
+                  "layoutMode": "VERTICAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 0
+                  },
+                  "itemSpacing": 4,
+                  "primaryAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "stack",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 0
+                },
+                {
+                  "name": "action",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 0,
+                    "right": 0,
+                    "bottom": 0,
+                    "left": 0
+                  },
+                  "itemSpacing": 8
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "Button",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 4,
+                    "right": 10,
+                    "bottom": 4,
+                    "left": 10
+                  },
+                  "itemSpacing": 8,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                },
+                {
+                  "name": "close",
+                  "layoutMode": "HORIZONTAL",
+                  "padding": {
+                    "top": 8,
+                    "right": 8,
+                    "bottom": 8,
+                    "left": 8
+                  },
+                  "itemSpacing": 0,
+                  "primaryAxisAlignItems": "CENTER",
+                  "counterAxisAlignItems": "CENTER"
+                }
+              ],
+              "componentProperties": {
+                "Action#1678:108": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Description#1678:174": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "Title#1678:161": {
+                  "type": "BOOLEAN",
+                  "value": true
+                },
+                "On Close#1678:55": {
+                  "type": "BOOLEAN",
+                  "value": false
+                },
+                "Variant": {
+                  "value": "Standard*",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "Severity": {
+                  "value": "Warning",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                },
+                "DarkMode": {
+                  "value": "False",
+                  "type": "VARIANT",
+                  "boundVariables": {}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
